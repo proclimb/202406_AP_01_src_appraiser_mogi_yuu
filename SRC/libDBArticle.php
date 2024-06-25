@@ -10,6 +10,7 @@ function fnSqlArticleList($flg, $sDel, $sArticle, $sRoom, $sKeyPlace, $sArticleN
 			break;
 		case 1:
 			$sql  = "SELECT ARTICLENO, ARTICLE, ROOM, KEYPLACE, ARTICLENOTE, KEYBOX, DRAWING, SELLCHARGE";
+
 			break;
 	}
 	$sql .= " FROM TBLARTICLE";

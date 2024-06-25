@@ -89,6 +89,7 @@ function subArticle()
 	$res = mysqli_query($sql);
 	$row = mysqli_fetch_array($res);
 
+
 	$count = $row[0];
 
 	$sPage = fnPage($count, $sPage, 'articleSearch');
