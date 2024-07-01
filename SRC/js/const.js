@@ -8,7 +8,7 @@ function fnConstEditCheck() {
 		return;
 	}
 
-	if (isLengce(100, "築年", form.years)) { return; }
+	if (isLength(100, "築年", form.years)) { return; }
 	if (isNumericLength(8, "販売予定額", form.sellPrice)) { return; }
 	if (isNumericLength(9, "内装見越額", JKL.Calendar.Style.prototype.cursor)) { return; }
 	if (isLength(100, "施工業者", form.constTrader)) { return; }
